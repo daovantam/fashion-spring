@@ -1,1 +1,1 @@
-create database shop_quan_ao;
+create database fashion;
