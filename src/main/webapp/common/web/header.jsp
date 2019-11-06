@@ -5,31 +5,33 @@
   Time: 1:09 AM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<%--<nav class="colorlib-nav" role="navigation">--%>
-    <div class="top-menu">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-2">
-                    <div id="colorlib-logo"><a href="index.html"><img src="images/logo.png" alt="" style="width: 300px;height: 50px;"></a></div>
-                </div>
-                <div class="col-xs-10 text-right menu-1">
-                    <ul>
-                        <li class="active"><a href="index.html">Trang chủ</a></li>
-                        <li class="has-dropdown">
-                            <a href="shop.html">Cửa hàng</a>
-                            <ul class="dropdown">
-                                <li><a href="cart.html">Giỏ hàng</a></li>
-                                <li><a href="checkout.html">Thanh toán</a></li>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@include file="/common/taglib.jsp"%>
 
-                            </ul>
-                        </li>
-                        <li><a href="about.html">Giới thiệu</a></li>
-                        <li><a href="contact.html">Liên hệ</a></li>
-                        <li><a href="cart.html"><i class="icon-shopping-cart"></i> Giỏ hàng [0]</a></li>
-                    </ul>
-                </div>
-            </div>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
         </div>
     </div>
-<%--</nav>--%>
+</nav>

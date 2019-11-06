@@ -5,69 +5,32 @@
   Time: 11:35 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<%@include file="/common/taglib.jsp" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ include file="/common/taglib.jsp" %>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>VIETPRO STORE</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="<c:url value="/template/fontend/css/animate.css"/>"/>
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="<c:url value="/template/fontend/css/icomoon.css"/>"/>
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="<c:url value="/template/fontend/css/bootstrap.css"/>"/>
+    <title>Trang chủ</title>
 
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="<c:url value="/template/fontend/css/magnific-popup.css"/>"/>
+    <!-- Bootstrap core CSS -->
+    <link href="<c:url value='/template/web/vendor/bootstrap/css/bootstrap.min.css'/>" rel="stylesheet">
 
-    <!-- Flexslider  -->
-    <link rel="stylesheet" href="<c:url value="/template/fontend/css/flexslider.css"/>"/>
-
-    <!-- Theme style  -->
-    <link rel="stylesheet" href="<c:url value="/template/fontend/css/style.css"/>"/>
-    <link rel="stylesheet" href="<c:url value="/template/fontend/css/custome.css"/>"/>
-
-
+    <!-- Custom styles for this template -->
+    <link href="<c:url value='/template/web/css/small-business.css'/>" rel="stylesheet">
 </head>
 <body>
 
-    <div class="colorlib-loader"></div>
-    <div id="page">
-        <nav class="colorlib-nav" role="navigation">
-        <!--header -->
-        <%@ include file="/common/web/header.jsp"%>
-        <!--header -->
-        </nav>
+<!-- Navigation -->
+<%@include file="/common/web/header.jsp"%>
 
-        <dec:body/>
+<!-- Page Content -->
+<dec:body/>
+<!-- /.container -->
 
-        <!-- footer -->
-        <%@include file="/common/web/footer.jsp"%>
-        <!--end  footer -->
-    </div>
+<!-- Footer -->
+<%@include file="/common/web/footer.jsp"%>
 
-    <!-- jQuery -->
-    <script src="<c:url value="/template/fontend/js/jquery.min.js"/>"></script>
-    <!-- jQuery Easing -->
-    <script src="<c:url value="/template/fontend/js/jquery.easing.1.3.js"/>"></script>
-    <!-- Bootstrap -->
-    <script src="<c:url value="/template/fontend/js/bootstrap.min.js"/>"></script>
-    <!-- Waypoints -->
-    <script src="<c:url value="/template/fontend/js/jquery.waypoints.min.js"/>"></script>
-    <!-- Flexslider -->
-    <script src="<c:url value="/template/fontend/js/jquery.flexslider-min.js"/>"></script>
-
-    <script src="<c:url value="/template/fontend/js/owl.carousel.min.js"/>"></script>
-    <!-- Magnific Popup -->
-    <script src="<c:url value="/template/fontend/js/jquery.magnific-popup.min.js"/>"></script>
-    <script src="<c:url value="/template/fontend/js/magnific-popup-options.js"/>"></script>
-
-    <!-- Stellar Parallax -->
-    <script src="<c:url value="/template/fontend/js/jquery.stellar.min.js"/>"></script>
-    <!-- Main -->
-    <script src="<c:url value="/template/fontend/js/main.js"/>"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="<c:url value='/template/web/vendor/jquery/jquery.min.js'/>"></script>
+<script src="<c:url value='/template/web/vendor/bootstrap/js/bootstrap.bundle.min.js'/>"></script>
 </body>
 </html>
