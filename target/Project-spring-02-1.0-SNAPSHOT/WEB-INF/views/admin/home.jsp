@@ -21,34 +21,71 @@
             <li class="nav-item active">
                 <a class="nav-link" href="#">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span>
+                    <span>Admin</span>
                 </a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Pages</span>
+                    <span>Quản lý sản phẩm</span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-                    <h6 class="dropdown-header">Login Screens:</h6>
-                    <a class="dropdown-item" href="#">Login</a>
-                    <a class="dropdown-item" href="#">Register</a>
-                    <a class="dropdown-item" href="#">Forgot Password</a>
-                    <div class="dropdown-divider"></div>
-                    <h6 class="dropdown-header">Other Pages:</h6>
-                    <a class="dropdown-item" href="#">404 Page</a>
-                    <a class="dropdown-item" href="#">Blank Page</a>
+                    <a class="dropdown-item" href="#">Danh sách sản phẩm</a>
                 </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Quản lý giỏ hàng</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="pagesDropdown1">
+                    <a class="dropdown-item" href="#">Danh sách giỏ hàng</a>
+                </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Quản lý tiêu đề</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="pagesDropdown2">
+                    <a class="dropdown-item" href="#">Danh sách tiêu đề</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Quản lý danh mục</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="pagesDropdown3">
+                    <a class="dropdown-item" href="#">Danh sách danh mục</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Quản lý thành viên</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="pagesDropdown4">
+                    <a class="dropdown-item" href="#">Danh sách thành viên</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Quản lý khách hàng</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="pagesDropdown5">
+                    <a class="dropdown-item" href="#">Danh sách khách hàng</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown6" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Quản lý bài viết</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="pagesDropdown6">
+                    <a class="dropdown-item" href="#">Danh sách bài viết</a>
+                </div>
             </li>
         </ul>
 
@@ -70,12 +107,12 @@
                         <div class="card text-white bg-primary o-hidden h-100">
                             <div class="card-body">
                                 <div class="card-body-icon">
-                                    <i class="fas fa-fw fa-comments"></i>
+                                    <i class="fas fa-fw fa-list"></i>
                                 </div>
                                 <div class="mr-5">26 New Messages!</div>
                             </div>
                             <a class="card-footer text-white clearfix small z-1" href="#">
-                                <span class="float-left">View Details</span>
+                                <span class="float-left">Quản lý sản phẩm</span>
                                 <span class="float-right">
                   <i class="fas fa-angle-right"></i>
                 </span>
@@ -91,7 +128,7 @@
                                 <div class="mr-5">11 New Tasks!</div>
                             </div>
                             <a class="card-footer text-white clearfix small z-1" href="#">
-                                <span class="float-left">View Details</span>
+                                <span class="float-left">Quản lý bài viết</span>
                                 <span class="float-right">
                   <i class="fas fa-angle-right"></i>
                 </span>
@@ -107,7 +144,7 @@
                                 <div class="mr-5">123 New Orders!</div>
                             </div>
                             <a class="card-footer text-white clearfix small z-1" href="#">
-                                <span class="float-left">View Details</span>
+                                <span class="float-left">Quản lý giỏ hàng</span>
                                 <span class="float-right">
                   <i class="fas fa-angle-right"></i>
                 </span>
